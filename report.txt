@@ -1,0 +1,28 @@
+# Insertion Sort Report
+
+## Introduction
+Insertion Sort is a simple, comparison-based sorting algorithm that builds a sorted list one element at a time.
+
+## Implementation
+The sorting function iterates from index 1 to the end, shifting larger elements to the right and inserting the current element into its correct position.
+
+## Performance Analysis
+- **Best Case (nearly sorted):** O(n)
+- **Worst Case (reversed array):** O(n^2)
+- **Average Case:** O(n^2)
+- **Space Complexity:** O(1) – in-place sorting
+- **Stability:** Maintains the order of equal elements
+
+## Test Results
+- Small arrays sort almost instantly.
+- Large or reversed arrays take significantly longer.
+- Stability verified with tuple-based keys.
+
+## Practical Applications
+- Efficient for small datasets
+- Great for nearly sorted data
+- Used in hybrid algorithms like TimSort
+
+## Improvements
+- Binary Insertion Sort
+- Hybrid methods (e.g., TimSort)
